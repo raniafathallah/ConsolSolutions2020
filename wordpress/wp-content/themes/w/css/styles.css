@@ -1,0 +1,42 @@
+body{color:#f1f3ff;margin:0;padding:0}.row{margin-right:0;margin-left:0},#feat,.features,.fourthsec{height:auto}
+header,.contact,body{background-color:#3498db!important}
+#mynav{background-color:#1b608e!important;}
+.firstsection{background-color:#fff!important;}
+
+#mynav ul{padding-left:150px}#mynav li{padding-right:50px}#mynav li,.mainn #namee h2::before,.mainn #namee h2::after{display:block}#mynav a,.navbar-brand,.mainn #namee h2::before,.mainn #namee h2::after{color:#ecf0f1}
+
+#mynav a,.mainn #namee h2{font-family:'PT Serif',serif;
+    font-family: 'Nunito', sans-serif;}
+.navbar-brand{font-family:'Roboto',sans-serif}.navbar-light .navbar-toggler-icon{background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#ecf0f1' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")}.mainn #namee h2{font-size:70px;padding-top:200px;padding-bottom:20px}.mainn #namee h2::before,.mainn #namee h2::after,#startpro button,#feat,.features{background-color:#ecf0f1!important}.mainn #namee h2::before,.mainn #namee h2::after{content:"";height:5px}.mainn #namee h2::before{margin-bottom:20px}.mainn #namee h2::after{margin-top:20px}.mainn #description h4,.detail p,.navbar-brand{font-size:24px}#mynav ul a,.feattext h3{font-size:18px}#startpro,#startpro button,#cvbtn{margin:0 auto}#startpro{font-weight:bold;color:#ef554d}#startpro button{border:0;margin-top:100px;margin-bottom:100px}#startpro:hover{border:0}.feattext h1{padding-top:50px}.feattext h3,#feat h3,.mypskills,.detail{padding-bottom:100px}.myfeat,.myfeatitem{padding-bottom:70px}
+
+.myfeatitem i{font-size:48px}*/.thirdsec{background-color:#ecf0f1;color:#ef554d}.myskills,.detail,.contact h1,.contact p{padding-top:100px}
+.overridebackground{background-color:#1b608e!important;}
+.progress{margin-bottom:20px;font-size:20px;height:2rem}.progress h3{padding:50px}.fourthsec{background-color:#ecf0f1!important;color:#ef554d}
+
+.detail i,.detail p,footer,#cvbtn,#feat,.features,.myfeatitem i,#startpro button,.myfeatitem,.progress-bar h,.progress-bar h5{color:#3498db;}
+
+.detail i{font-size:58px;padding-bottom:20px}.contact h1,.contact p{padding-top:100px;padding-bottom:20px}.mylinks{color:#ecf0f1!important;padding:10px;font-size:30px}footer,#cvbtn{background-color:#3498db}footer{padding:40px}#cvbtn{border:0;margin-bottom:100px}#cvbtn::hover{border:0}#cvbtn::clicked{border:2px solid #ef554d}.#contact .update span a:hover{border-bottom: 2px soild #212529 !important;}
+@media(max-width:768px){.hiddenmobil{visibility:hidden!important;display:none!important}#mynav ul{padding:0}#mynav ul li{text-align:center}.mainn #namee h2{font-size:30px!important}.mainn #description h4{font-size:18px}.progress h5{font-size:14px}}.hvr-grow{display:inline-block;vertical-align:middle;-webkit-transform:perspective(1px) translateZ(0);transform:perspective(1px) translateZ(0);box-shadow:0 0 1px transparent;-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:transform;transition-property:transform}.hvr-grow:hover,.hvr-grow:focus,.hvr-grow:active{-webkit-transform:scale(1.1);transform:scale(1.1)}.hvr-grow-rotate{display:inline-block;vertical-align:middle;-webkit-transform:perspective(1px) translateZ(0);transform:perspective(1px) translateZ(0);box-shadow:0 0 1px transparent;-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:transform;transition-property:transform}.hvr-grow-rotate:hover,.hvr-grow-rotate:focus,.hvr-grow-rotate:active{-webkit-transform:scale(1.1) rotate(4deg);transform:scale(1.1) rotate(4deg)}.feattext{text-align: center;}
+
+ #contact .update span a,.contact h1, .contact h5 {color:#3498db ;}
+   #contact .update span{font-size: 24px;}
+@media (max-width:480px){#contact .update span{font-size: 12px;}}
+#contact .update span a {color:#3498db ;}
+#contact .update span{font-size: 24px;}	@media (max-width:480px){#contact .update span{font-size: 12px;}}
+/*edit in 7-12-2018*/
+.update span a{    text-decoration: none;color: #3498db;}
+#description,#namee{
+color:#ecf0f1;
+}
+.update span{color:#000;}
+
+#contact .update span a, .contact h1, .contact h5 {
+    color: #3498db;
+}
+
+detail i, footer, .progress-bar h, .progress-bar h5 {
+    color: #e9ecef;
+}
+/* .contact h1, .contact h5 {
+    color: #ecf0f1;
+}*/

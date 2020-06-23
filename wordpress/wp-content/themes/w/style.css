@@ -1,0 +1,42 @@
+    
+/*
+Theme Name: x
+Theme URI: https://wordpress.org/themes/raniaweb/
+Author: the Rania fathallah
+Author URI: https://wordpress.org/themes/raniaweb/
+Description: very nice day 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Consol
+*/
+html{
+    padding: 0px !important;
+    margin: 0px !important;
+
+}
+.container-fluid{
+padding:0px !important;
+margin:0px !important;
+}
+body::-webkit-scrollbar {
+    width: .7em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+/*  background-color: #18456b;*/
+/*    background-color: #052b52;*/
+/*    background-color:  rgba(130, 59, 70, .5);*/
+ /*   background-color: #f3c4f3 !important;*/
+    background-color: #c3b8cc;
+  outline: 1px solid slategrey;
+}
+
+.fa, .fa-phone {
+    font-family: "Font Awesome 5 Free" !important;
+}
+
