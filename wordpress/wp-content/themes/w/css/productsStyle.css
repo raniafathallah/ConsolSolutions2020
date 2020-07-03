@@ -1,0 +1,536 @@
+
+/* start condoard styles */
+       .conboardBack{background: url('../images/conboardBack.jpg');}
+       .telemedicineBlock{
+                background: url('../images/TelemedicineBack.jpg');
+                height: auto;
+                overflow: auto;
+       }
+        .conboardBack, .telemedicineBlock{background-size: 100% 100%;background-repeat: no-repeat;}
+        .conboardContent{padding: 2%}
+        .conboardContent h2{font-size: 42px;color: #2ba0a3; font-family: Century Gothic !important;}
+        .conboardContent p{font-size: 32px;color: #4fbbc2;}
+        .conboardContent h2, .conboardContent p{font-weight: bold;}
+        .conboardMiddlePart{height: auto;overflow: auto;}
+        .conboardLeftBar,.conboardRighrBar{padding: 2%;float: left;width: 50%;}
+        .conboardRighrBar{padding-top: 5%;}
+        .conboardAdv>span{
+            color: #4fbbc2;
+            font-size: 32px;
+            font-weight: bold;
+        }
+        .telemedicineBlock .teleContent{
+            float: left;
+            width: 70%;
+            padding: 2%;
+        }
+        .telemedicineBlock img{
+            float: right;
+            width:25%;
+            padding: 2%;
+        }
+        .teleContent{padding-top: 7% ;}
+        .teleContent h2,
+        .teleContent p{font-family: Century Gothic !important;font-weight: bold;}
+        .teleContent h2{ color: #f2f2f2;font-size: 48px;}
+        .teleContent p{ color: #e6e6e6; font-size: 32px;}
+        .telemedicineMiddlePart{height: auto;overflow: auto;text-align: center;}
+        .telemedicineMiddlePart>h1{color: #4fbbc2;font-size: 48px; font-weight: bold;}
+        .telemedicineLeftBar,
+        .telemedicineRighrBar>.telemedicineAdv{float: left;}
+        .telemedicineRighrBar,
+        .telemedicineLeftBar>.telemedicineAdv{float: right;}
+        .telemedicineLeftBar,.telemedicineRighrBar{width: 35%;padding-top: 10%;}
+        .telemedicineMiddleBar{width:30%; float:left; }
+        .telemedicineAdv{overflow: auto;height: auto;margin: 3% 5%;}
+        .telemedicineAdv>img{width: 50px}
+        .telemedicineAdv>span{color:#4fbbc2 ;font-size:32px ; font-weight: bold;}
+        .telemedicineThirdPart{padding: 2%;}
+        .telemedicineThirdPart,.telemedicineUpBar,.telemedicineDownBar{height: auto;overflow: auto;}
+        .telemedicineUpBar>div,.telemedicineDownBar>div,
+        .telemedicineUpBar>img,.telemedicineDownBar>img{float: left;   }
+        .telemedicineUpBar>div,.telemedicineDownBar>div{width:70%;}
+        .telemedicineUpBar>div h3,.telemedicineDownBar>div h3{
+            color:#2ba0a3 ;  
+            font-family: Century Gothic !important; 
+            font-size: 54px;
+            font-weight: bold;
+        }
+        .telemedicineUpBar>div p,.telemedicineDownBar>div p{color: #4fbbc2;font-size: 36px;font-weight: bold;}
+        .telemedicineUpBar>img,.telemedicineDownBar>img{width:30%;}
+
+        
+        
+        /* responsive getway */
+        
+     @media only screen 
+        and (min-device-width :600px)
+        and (max-device-width : 990px) {.conboardAdv>span {font-size: 24px !important;}}
+    @media only screen 
+        and (min-device-width :300px)
+        and (max-device-width : 400px) {
+              .conboardBack{
+                   background: url('../images/conboardBackMobil.jpg') !important;
+                   background-size: 100% 100%;
+                  background-repeat: no-repeat;
+                   
+            }
+        } 
+    @media only screen 
+        and (min-device-width :300px)
+        and (max-device-width : 600px) {
+        .conboardContent p ,.conboardAdv>span{font-size: 24px;}
+        .conboardLeftBar, .conboardRighrBar {width:100%;padding: 0px !important;}
+        .conboardLeftBar>img{width:100%;}
+        .conboardAdv img{width: 65px;}
+    }
+/* end conboard styles  */
+/* start telemedicine styles */
+        /* responsive */
+    @media only screen 
+        and (min-device-width :992px)
+        and (max-device-width : 1200px) {
+      .telemedicineBlock img {width:30%;}
+      .telemedicineAdv>span {font-size: 26px;}}
+    @media only screen 
+        and (min-device-width :300px)
+        and (max-device-width : 992px) {
+        .telemedicineBlock .teleContent{width: 100%;}
+        .telemedicineBlock img{width:30%;}  
+        .telemedicineLeftBar, .telemedicineRighrBar,.telemedicineMiddleBar{width:100%;}
+        .telemedicineAdv{float: none !important;}
+        .telemedicineMiddlePart{background: #f1f1f1;}
+        .telemedicineUpBar>img, .telemedicineDownBar>img{
+                float: right !important;
+                border-radius: 50% 50%;}
+        .telemedicineBlock img{display: none;}
+        .teleContent p ,   .telemedicineUpBar>div p, .telemedicineDownBar>div p{font-size: 24px !important;}
+        .teleContent h2 ,.telemedicineUpBar>div h3,
+        .telemedicineDownBar>div h3,.telemedicineMiddlePart>h1 {font-size: 40px !important;}
+        .telemedicineMiddleBar>img{width:100%;}
+        }
+        
+    @media only screen 
+        and (min-device-width :700px)
+        and (max-device-width : 992px) {
+        .telemedicineRighrBar{padding: 0px !important;}
+        }
+    @media only screen 
+        and (min-device-width :300px)
+        and (max-device-width : 700px) {    
+        .telemedicineAdv>span {font-size: 24px !important;}
+        
+        }
+
+
+/* start smartambulance styles */
+
+ .smartambulanceBack{
+            background: url('../images/SmartAmbulanceBack.jpg');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            overflow: auto;    
+        }
+        .smartambulanceMiddlePart{
+           overflow: auto;
+            height: auto;
+            padding: 0px;
+            padding-top: 2%;
+            padding-left: 2%; 
+        }
+        .smartambulanceMiddlePart h2{
+           color: #2ba0a3; font-size: 48px;
+           font-family: Century Gothic !important;
+           font-weight: bold;
+            
+        }
+        .smartambulanceMiddlePart p{
+            color: #4fbbc2; font-size: 32px;
+            font-weight: bold;
+             
+        }
+        .ambulanceLowerBlock{
+            height: auto;
+            overflow: auto;
+            
+        }
+        .ambulanceLowerBlock>img{float: left;width: 30%;}
+        .ambulanceLowerBlock>div{float: left;width:70%;}
+        .smartAmbulanceAdvContainer{
+            overflow: auto;
+            height: auto;
+            padding: 2%;
+        }
+        .smartAmbulanceAdvContainer>.smartAmbulanceADV{overflow: auto;height: auto;}
+        .smartAmbulanceADV>img{float: left;width: 5%;}
+        .smartAmbulanceADV>div{float: left;width: 80%;}
+        .smartAmbulanceADV>div h3{color: #2ba0a3 ;font-weight: bold;font-size: 32px;}
+        .smartAmbulanceADV>div p{color: #4fbbc2 ;font-weight: bold; font-size: 24px;  }
+        
+        .ambulanceSaveLife{
+            overflow: auto;
+            height: auto;
+            background: #14908f;
+           padding: 2%
+            
+        }
+        .ambulanceSaveLife>img,.ambulanceSaveLife>div{float: left}
+        .ambulanceSaveLife>img {width:20%;}
+        .ambulanceSaveLife>div{width:70%;}
+         .ambulanceSaveLife>div h3{ color: #ffffff;font-weight: bold;font-size: 32px;}
+         .ambulanceSaveLife>div p{ color: #f2f2f2;font-weight: bold;font-size: 24px;}
+    
+    
+    @media only screen 
+        and (min-device-width :300px)
+        and (max-device-width : 700px) {
+                .smartambulanceBack{
+            background: url('../images/SmartAmbulanceBackMobil.jpg');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            }
+            .smartambulanceMiddlePart h2{font-size: 32px !important;}
+            .smartambulanceMiddlePart p{font-size: 24px;}
+            .ambulanceLowerBlock>div{width:100%;}
+            .smartAmbulanceADV{padding: 0px !important;}
+            .smartAmbulanceADV>img{width:15%}
+            .ambulanceLowerBlock>img {width:75% !important}
+            .ambulanceSaveLife>div h3,.smartAmbulanceADV>div h3{ font-size: 24px !important;}
+            .ambulanceSaveLife>div p,.smartAmbulanceADV>div p{font-size: 18px !important;}
+            .ambulanceSaveLife>img {width: 100%;}   
+        } 
+/* end smartambulance styles */
+/* start connect styles*/
+        .ConnecttBlock{
+            background: url('../images/ConnectBack.jpg');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            overflow: auto;
+            padding-top: 5%;
+            padding-right: 5%;
+        } 
+        .connecttLeftBar{
+            background: rgba(0,0,0,.2);
+            border-radius: 5px;
+            padding: 2%;
+        }
+        .connecttLeftBar,.connecttRightBar{
+            width:46%;
+            float: left;
+            margin: 2%;
+        }
+        .connecttLeftBar h2{font-size:56px ;font-family: Century Gothic !important; }
+        .connecttLeftBar p{font-size:32px ;}
+        .connecttLeftBar h2, .connecttLeftBar p{color: #fff;font-weight: bold;}
+        .connecttRightBar img{width:100%;}
+        .connecttMiddlePart{overflow: auto;height: auto;}
+        .connecttLeftBar2,.connecttRightBar2{float: left;}
+        .connecttLeftBar2{width:40%;height: auto;overflow: auto;     padding-top: 5%;}
+        .connecttRightBar2{width:60%;}
+        .connecttADV>img,.connecttADV{float: left;padding-top: 4px;}
+        .connecttADV>img{width:10%;}
+          .connecttADV>div{width:90%;overflow: auto;}
+        .connecttADV>div h3 {color: #2ba0a3;font-size: 28px; font-weight: bold;}
+        .connecttADV>div p {color: #4fbbc2;font-size: 20px; font-weight: bold;}
+        .connecttMiddleText{
+            width: auto;
+            background: #14908f;
+            color: #fff;
+            padding: 2px 5px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            display: table;
+        }
+        
+    @media only screen 
+        and (min-device-width :300px)
+        and (max-device-width : 992px) {
+        .connecttLeftBar, .connecttRightBar{width:100%;}
+        .connecttLeftBar h2 {font-size: 42px;}
+        .connecttLeftBar p {font-size: 24px;}
+        .connecttLeftBar2{width:100%;}
+        .connecttADV>div h3 {font-size: 20px;}
+        .connecttADV>div p {font-size: 16px;}
+        .connecttRightBar2{width:100%;}
+        .connecttRightBar2>img{width:100%;}
+        }
+
+/* end connect styles */
+
+/* start ntirevision */
+        .ntirevisionBack{
+            background: url('../images/NtirevisionBack.jpg');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        .ntirevisionMiddlePart{height: auto;overflow: auto;padding: 0px;}
+        .ntirevisionRightBar,.ntirevisionContent{float: left;}
+        .ntirevisionContent{width: 70%;}
+        .ntirevisionRightBar{width: 30%;}
+        .ntirevisionMiddlePart{padding: 2%;}
+        .ntirevisionContent h2{color:#2ba0a3 ;font-size: 48px;font-weight: bold; 
+            font-family: Century Gothic !important;
+        }
+        .ntirevisionContent p{color:#4fbbc2 ;font-size: 32px;font-weight: bold;}
+        .ntirevisionDownBar{overflow: auto;height: auto;}
+        .ntirevisionAdv{overflow: auto;height: auto;}
+        .ntirevisionAdv img{padding: .5%;height: 100px;}
+        .ntirevisionAdv img, .ntirevisionAdv div{float: left;}
+        .ntirevisionAdv div{width: 60%;}
+        .ntirevisionAdv div>span{
+            font-size: 48px;
+            font-weight: bold;
+            color: #2ba0a3
+        }
+        .ntirevisionAdv div>p{
+            font-size: 32px;
+            font-weight: bold;
+            color: #4fbbc2;   
+        }
+    @media only screen 
+        and (min-device-width :300px)
+        and (max-device-width : 776px) {
+                .ntirevisionBack{
+                    background: url('../images/NtirevisionBackMobil.jpg');
+                    background-size: 100% 100%;
+                    background-repeat: no-repeat;
+            }
+        }
+        @media only screen 
+        and (min-device-width :300px)
+        and (max-device-width : 992px) {
+            .ntirevisionContent,.ntirevisionRightBar{width:100%;}
+            .ntirevisionContent h2,.ntirevisionAdv div>span {font-size: 32px;}
+            .ntirevisionContent p,.ntirevisionAdv div>p{font-size: 24px;}
+            .ntirevisionAdv img {height: 75px;width:20%;}
+            .ntirevisionAdv div {width:80%;}
+            
+        }
+    
+/* end ntirevision */
+/* start getway styles */
+        .GetwayBack{
+            background: url('../images/GetwayBack.jpg');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            overflow: auto;
+            padding-top: 5%;
+            padding-right: 5%;  
+        } 
+        .getwayTopBar p
+        {
+            color: #139e94;
+            font-size: 32px;
+            font-family: Century Gothic !important;
+            font-weight: bold;
+        }
+        .getwayTopBar h2{
+            color: #14908f;
+            font-size: 48px;
+            font-family: Century Gothic !important;
+            font-weight: bold;
+        }
+        .getwayMiddlePart{background: #f2f2f2;padding: 2%;
+        }
+        .getwayDownBar{text-align: center}
+        .getwayDownBar>div
+        {
+            text-align: center;
+            background: #14908f;
+            width: auto;
+            display: inline-block;
+            color: #fff;
+            font-weight: bold;
+            padding: 4px;
+            font-size: 32px;
+            border-radius: 5px;
+        }
+        .getwayDownBar img{width: 100%;}
+        .getwayExplaination{padding: 2%;overflow: auto;}
+        .getwayExplaination> .getwayExp1>div,
+        .getwayExplaination> .getwayExp2>div{
+          background:  #14908f;
+            color: #fff;
+            font-weight: 32px;
+            font-weight: bold;
+            font-family: Century Gothic !important;
+            width: auto ;
+            display: INLINE-BLOCK;
+            BORDER: 5PX;
+            padding: 5px;
+            border-radius: 5px;
+            font-size: 28px;
+        }
+         .getwayExplaination> .getwayExp1>p,
+         .getwayExplaination> .getwayExp2>p{ color: #14908f;font-size: 24px;font-weight: bold;}
+        .getAdvantages{text-align: center;height: auto;overflow: auto;background: #f2f2f2;}
+         .getAdvantages>p
+        {
+            font-size: 36px;
+            color: #14908f;
+            font-family: Century Gothic !important;
+            font-weight: bold;
+        }
+        .getAdvantagesLeftBar,.getAdvantagesCenterBar,.getAdvantagesRightBar{float: left;width:33.3333%}
+       .getAdvantagesLeftBar .getwayAdv>p,
+        .getAdvantagesLeftBar .getwayAdv>img{float: right}
+          .getAdvantagesRightBar .getwayAdv>p,
+        .getAdvantagesRightBar .getwayAdv>img{float: left}
+        .getwayAdv
+        {width: 100%;overflow: auto;}
+        
+         .getAdvantagesRightBar .getwayAdv>p,
+         .getAdvantagesLeftBar .getwayAdv>p
+        {
+            font-size: 32px;
+            font-weight: bold;
+            color: #14908f;
+            
+        }
+        
+        .lastAd{text-align: center;background: #f0f0f0}
+        .lastAd>.getwayAdv{width:auto;display: inline-block;}
+        .lastAd>.getwayAdv>img,.lastAd>.getwayAdv>p{float: left}
+        .getwayAdv p
+        {    
+            font-size: 32px;
+            font-weight: bold;
+            color: #14908f;
+        }
+        
+                    @media only screen 
+        and (min-device-width :300px)
+        and (max-device-width : 992px) {               
+         .GetwayBack{
+            background: url('../images/GetwayBackMobil.jpg');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            }
+            .getwayTopBar h2 {font-size: 36px;}
+            .getwayTopBar p ,.getwayDownBar>div {font-size: 24px;}
+            .getwayExplaination> .getwayExp1>div,
+            .getwayExplaination> .getwayExp2>div ,.getAdvantages>p{font-size: 24px !important;}
+            .getwayExplaination> .getwayExp1>p, .getwayExplaination> .getwayExp2>p {font-size: 18px;}
+            .getAdvantagesLeftBar, .getAdvantagesCenterBar, .getAdvantagesRightBar{width: 100%;}
+            .getAdvantagesRightBar .getwayAdv>p, .getAdvantagesLeftBar .getwayAdv>p ,
+            .lastAd>.getwayAdv>p{font-size: 24px;}
+            .getAdvantagesLeftBar .getwayAdv>p, .getAdvantagesLeftBar .getwayAdv>img{float: left;}
+            .lastAd {text-align: left;}
+            .getwayTopBar h2 {font-size: 32px;}
+            .getwayTopBar p{font-size: 24px;}
+            .getAdvantagesCenterBar img{display: none;}
+        }
+/* end getway styles */
+
+/* start service styles [medical and company]*/
+
+      .MedicalConBlock{
+            overflow: auto;
+            height: auto;
+            background: url('../images/MedicalConBack.jpg');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            padding: 2%;
+        }
+        .MedicalConLeftBar,.MedicalConRightBar{float: left;padding: 1%;}
+        .MedicalConLeftBar{width:60%}.MedicalConRightBar{width:40%;}
+        .MedicalConRightBar>img{width:100%;padding: 5% ;}
+        .MedicalConLeftBar h2,.MedicalConLeftBar p
+        {font-weight: bold;font-family: Century Gothic !important; color: #fff;}
+        .MedicalConLeftBar h2{font-size: 42px;}
+        .MedicalConLeftBar p{font-size: 36px;opacity: .93}
+        .MedicalConMiddlePart{overflow: auto;height: auto;background: #e6e6e6;}
+        .MedicalConLeftBar2,.MedicalConRightBar2{float: left;padding: 2%;width:50%;}
+        .MedicalConRightBar2>img{width: 100%;height: 400px}
+        .MedicalConLeftBar2 > h2,.MedicalConLeftBar2 > p{font-weight: bold;color: #14908f;}
+        .MedicalConLeftBar2 > h2{  font-family: Century Gothic !important;}
+        .MedicalConLeftBar2 > h2{font-size: 36px;}
+        .MedicalConLeftBar2 > p{font-size: 24px;}
+        .FinalMedicalCon{padding: 0px;}
+        .FinalMedicalCon1,.FinalMedicalCon2{overflow: auto;height: auto;background: #14908f;padding: 0px;}
+        .MedicalConRightBar3,.MedicalConLeftBar3{ float: left;width: 50%}
+        .MedicalConRightBar3{width: 40%}.MedicalConLeftBar3{width: 60%;padding: 2%;}
+        .MedicalConLeftBar3 h2{font-size: 48px}
+        .MedicalConLeftBar3 p{font-size: 32px;opacity: .90}
+        .MedicalConLeftBar3 h2,.MedicalConLeftBar3 p{font-weight: bold;color:#fff; }
+        .MedicalConLeftBar4 h2,.MedicalConLeftBar4 p{color:#14908f; }
+        .MedicalConRightBar3>img{}
+        .FinalMedicalCon2{background: #e6e6e6;}    
+    @media only screen 
+        and (min-device-width :300px)
+                     and (max-device-width : 600px) {.MedicalConLeftBar,.MedicalConRightBar{width:100%;}}    
+    @media only screen 
+        and (min-device-width :300px)
+        and (max-device-width : 776px) {
+        .MedicalConBlock{background: #247272;}
+        .MedicalConLeftBar2 > h2{font-size: 24px;}
+        .MedicalConLeftBar2 > p,.MedicalConLeftBar3 p{font-size: 18px;}
+        .MedicalConLeftBar h2,.MedicalConLeftBar3 h2 {font-size: 32px;}     
+        .MedicalConLeftBar p,.MedicalConLeftBar4 h2 {font-size: 24px;}
+        .MedicalConLeftBar2, .MedicalConRightBar2,.MedicalConLeftBar3,.MedicalConRightBar3 ,.MedicalConRightBar3>img{width: 100%}
+        .MedicalConBlock {min-height: auto !important;}
+        }
+    @media only screen 
+        and (min-device-width :992px)
+        and (max-device-width : 1024px) {.MedicalConBlock {min-height: auto !important;}}
+        .CompanyConBlock{
+            overflow: auto;
+            height: auto;
+            background: url('../images/CompanyConBack.jpg');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            padding: 2%;
+        }
+        .CompanyConLeftBar,.CompanyConRightBar{float: left;padding: 1%;}
+        .CompanyConLeftBar{width:60%}.CompanyConRightBar{width:40%;}
+        .CompanyConRightBar>img{width:100%;   
+            padding: 5% ;
+        }
+        .CompanyConLeftBar h2,.CompanyConLeftBar p
+        {
+        font-weight: bold;
+        font-family: Century Gothic !important; color: #fff;
+        }
+        .CompanyConLeftBar h2{font-size: 42px;}
+        .CompanyConLeftBar p{font-size: 36px;opacity: .93}
+        .CompanyConMiddlePart{overflow: auto;height: auto;background: #e6e6e6;}
+        .CompanyConLeftBar2,.CompanyConRightBar2{float: left;padding: 2%;}
+        .CompanyConLeftBar2{width:60%;padding:5% 2% !important;}
+        .CompanyConRightBar2{width:40%;}
+        .CompanyConRightBar2>img{width: auto;height: 400px}
+        .CompanyConLeftBar2 > h2,.CompanyConLeftBar2 > p{font-weight: bold;color: #14908f;}
+        .CompanyConLeftBar2 > h2{font-family: Century Gothic !important;}
+        .CompanyConLeftBar2 > h2{font-size: 36px;}
+        .CompanyConLeftBar2 > p{font-size: 24px;}
+        /* responsive */        
+     @media only screen 
+        and (min-device-width :300px)
+        and (max-device-width : 600px) {.CompanyConLeftBar,.CompanyConRightBar{width:100%;}   }
+    @media only screen 
+        and (min-device-width :300px)
+                and (max-device-width : 775px) {.CompanyConLeftBar2, .CompanyConRightBar2{width: 100%}}
+    @media only screen 
+        and (min-device-width :300px)
+        and (max-device-width : 775px) {
+            .CompanyConBlock{background: #247272;}
+            .CompanyConLeftBar2 > h2{font-size: 24px;}
+            .CompanyConLeftBar2 > p{font-size: 18px;}
+            .CompanyConLeftBar h2 {font-size: 32px;} 
+            .CompanyConLeftBar p {font-size: 24px;}
+            .CompanyConBlock {min-height: auto !important;}
+            .CompanyConRightBar2>img {width: 100%;height: 430px;}
+        }
+    @media only screen 
+        and (min-device-width :992px)
+        and (max-device-width : 1024px) {.CompanyConBlock {min-height: auto !important;}}
+    @media only screen 
+        and (min-device-width :776px)
+        and (max-device-width : 992px) 
+        {
+        .CompanyConLeftBar2{width:40% !important;}
+        .CompanyConRightBar2{width:60% !important;}
+        .CompanyConRightBar2>img {width: auto;}
+        }
+/* end service styles [medical and company]*/

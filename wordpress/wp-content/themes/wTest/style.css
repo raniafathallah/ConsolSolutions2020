@@ -1,0 +1,22 @@
+    
+/*
+Theme Name: x
+Theme URI: https://wordpress.org/themes/raniaweb/
+Author: the WordPress team
+Author URI: https://wordpress.org/themes/raniaweb/
+Description: very nice day 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: newtheme
+*/
+html{
+    padding: 0px !important;
+    margin: 0px !important;
+
+}
+.container-fluid{
+padding:0px !important;
+margin:0px !important;
+}
+

@@ -1,0 +1,73 @@
+/*********************************************************************/
+/* Bootstrap 4 Multiple Item Carousel */
+/*********************************************************************/
+/* medium - display 2  */
+@media (min-width: 769px) {
+
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(50%);
+    }
+
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-50%);
+    }
+    
+        
+   
+}
+
+  @media only screen 
+        and (min-device-width :300px)
+                     and (max-device-width : 992px) {
+                          .carousel-inner{padding-top: 200px !important}
+                         .ClientsConBlock>h3{font-size: 24px;}
+                         .ClientsConBlock>h2 {font-size: 22px;}
+                         .clientBlock>h5{font-size: 18px;}
+                         .clientBlock>span{font-size: 16px;}
+                         .clientBlock>p{font-size: 18px;}
+                         .clientBlock{min-height: auto !important;height:auto !important;}
+                    /*     .MedicalConLeftBar,.MedicalConRightBar{width:100%;}*/
+}    
+
+/* large - display 3 */
+@media (min-width: 992px) {
+
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(33%);
+    }
+
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-33%);
+    }
+}
+
+@media (max-width: 700px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+}
+
+@media (max-width: 769px) {
+    .carousel-inner .carousel-item>div {
+        display: none !important;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+    transform: translateX(0);
+}

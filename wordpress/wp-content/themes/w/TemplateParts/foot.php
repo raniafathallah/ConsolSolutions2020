@@ -1,161 +1,10 @@
+<!--
+<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/productsStyle.css">
+<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/style.css">
+-->
 
+<footer style="display:none">
 
-<footer>
-
-<style> 
-.page-head{
-float: left !important;
-}
-#footerlinks  #menu-primary-1 {
-    list-style: none !important;
-}  
-#footerlinks ul li:hover {
-}
-#footerlinks #menu-primary-1 li:hover  #footerlinks #menu-primary-1 li {
-    background: #fff !important;
-}
-#footerlinks #menu-primary-1 li:hover  #footerlinks #menu-primary-1 li a{
-/*    color: #000;  */
-    color: #630b19;
-}
-.allfooterdivs{
-    background: #fbfafb !important;
-}
-#footerlinks #menu-primary-1 li a{
-    color: #333;
-    text-decoration: none;
-}        
-#footerlinks #menu-primary-1 li a:hover{
-/*    color: #00aba9;*/
-        color: #630b19;
-}
-.map_footer {
-    padding: 10px 0px;
-}
-    ul{
-        list-style: none;
-    }
-ul a{
-    font-size: 15px;
-    color: #333;
-    text-decoration: none;
-}
-ul a:hover{
- /*   color: #00aba9;*/
-          color: #630b19;
-       text-decoration: none;
-}
-.page-head{
-    font-size: 18px    
-}
-    .allfooterdivs{
-        height: auto;
-        overflow: auto;
-    }
-    .widget_text.foot-in-in{
-        width:100% !important;
-    }
-    
-    #footerlinks .menu-primary-container{
-        background: #fbfafb;
-    }
-    .allfooterdivs .menu-primary-container{
-        height: auto;
-    }
-    .map_footer iframe{
-        height: 172px !important;
-    }
-    @media (min-width:300px) and (max-width:767px)
-    {
-        .contact-short div{
-            font-size: 10px;
-        }
-  /*      .map_footer,.map_footer>div {
-            float: none !important;
-        }*/
-        .allfooterdivs div{
-/*
-            float: none;
-*/
-        }
-        ul{
-            width: 100%;
-            padding: 0px;
-            margin: 0px;
-        }
-        .contact-short{
-            padding-left: 30px;
-        }
-        .allfooterdivs{
-            padding: 0px;
-        }
-      .textwidget.custom-html-widget{
-            width:100% !important; 
-        }
-      .allfooterdivs{
-            padding: 0px;
-        }
-        #footerlinks{
-            padding-left: 16px !important;
-            padding-top: 18px !important;
-        }
-       #footerlinks ul a {
-           font-size: 11px;
-        }
-        .navlinks {
-            padding-top: 12px !important;
-        }
-/*
-        .navlinks .menu-primary-2{
-            padding-top: 15px !important;
-        }
-*/
-        .contact-short h2{
-            padding-top: 0px !important;
-        }
-         .smallview{
-            float: left !important;
-            padding: 0px !important;
-            margin: 0px !important;
-             width:50% !important;
-        }
-        .map_footer iframe{
-            height: 110px !important;
-        }
-        .map_footer {
-    padding: 10px 10px !important;
-}
-    }
-    @media (min-width:768px) and (max-width:992px){
-   
-      .allfooterdivs{
-            padding: 0px;
-        }
-      .allfooterdivs div{
-            float: left;
-            padding-bottom: 2px;
-            margin: 0px;
-            padding: 0px !important;
-        }
-        .map_footer iframe{
-           /* height: 122px !important;*/
-            height: 165px !important;
-            padding: 23px 39px !important;
-        }
-        .widget_text.foot-in-in,.textwidget.custom-html-widget{
-            width:100% !important; 
-        }
-        .map_footer{
-            margin-left: 45px;
-            margin-top: 23px;  
-            padding: 26px 39px !important;
-        }
-        #menu-primary-2{
-            padding-top: 20px;
-        }
-    }
-</style>
-    
     
 
         <div class="container-fluid  allfooterdivs" style="">
@@ -187,3 +36,128 @@ ul a:hover{
             </div>
     </div>
 </footer>
+
+
+
+<!-- start new footer -->
+<style>
+    
+    #menu-primary-2 .sub-menu,#menu-primary-2 .sub-menu{display: none !important;}
+
+    #menu-primary-2 li{}
+    #menu-primary-2 li a{
+        display: block;
+        font-weight: bold;
+        font-size: 18px;
+        letter-spacing: 2px;
+        cursor: pointer; 
+        letter-spacing: 2px;
+        color: #fff;
+        text-decoration: none;
+    }
+    .footerMenu2,#menu-primary-2{padding: 0px !important;}
+    .footerMenu2>.menu-primary-container{background: transparent !important;}
+    
+/*    .footerMenu2 .menu-item-44,.footerMenu2 .menu-item-23{display: none;}*/
+</style>
+
+
+   
+    <footer>
+        <div class="leftBar">
+        <h2>OUR OFFICES</h2>
+        <h3> Turkey</h3>
+        <p> 
+        Ivedik OSB Mahallesi 2224 Cad. Ankara 
+        Teknopark Kampüsü C Blok No:1/416 06370 
+        Yenimahalle, Ankara Türkiye</p>
+        
+        <h3>    Egypt</h3>
+        <p> 
+         
+            30 Alferdaws street Smoha , Alexandria</p>
+        
+        <h3>  Saudia Arabia</h3>
+        <p> P O Box 286952, Riyadh 11323</p>
+        
+        <div class="footerIcons">
+        
+      
+            <a> <img src="<?php bloginfo('template_url');?>/images/facebookIcon.png)" ></a>
+            <a> <img src="<?php bloginfo('template_url');?>/images/linkedinIcon.png" ></a>
+            <a> <img src="<?php bloginfo('template_url');?>/images/whatsIcon.png" ></a>
+            <a> <img src="<?php bloginfo('template_url');?>/images/googleplusIcon.png" ></a>
+        </div>
+    </div>
+        <div class="centerBar">
+        <div style="float: left;width: 50%">
+              <h2>QUICK LINKS</h2>
+              <!--   <span> Home</span>
+                 <span> Clients</span>
+                 <span> Medical Services</span>
+                 <span> Company Services</span>
+                 <span> Contact</span>-->
+            
+            
+            <div class=" " id="" style="width:100%;float:right;">
+                <ul class="footerMenu2" >
+                    <?php  $args=array('themelocation'=>'footer2') ?>
+                    <?php  wp_nav_menu( $args);  ?>
+                </ul>
+            </div>   
+        </div>
+  
+ 
+<!--        <div class="requestDemo">Request Demo </div>-->
+        <div style="height:auto;overflow:auto;">
+           <div class="requestDemo">Request Demo </div>
+           <div class="branchBlock branchSaudi" style="background: #14908f;float: left;width: 80%;margin-right: 20%">
+       
+          <h3> Saudia Arabia
+ </h3>
+          <div>
+              <img src="<?php bloginfo('template_url');?>/images/messageIcon.png">
+              <p>info@consol.com.tr  <br>
+                 support@consol.com.tr</p>
+          </div>
+          <div>
+              <img src="<?php bloginfo('template_url');?>/images/phoneIcon.png">
+              <p>info@consol.com.tr  <br>
+                 support@consol.com.tr</p>
+          </div>
+        </div>
+            
+        </div>
+      
+    </div>
+        <div class="rightBar">     
+          
+            <div class="branchBlock" style="float: left;width: 40%;margin-right: 10%;border-bottom: 2px solid #21bfbe; background: #107373 !important">
+              <h3> Turkey </h3>
+              <div>
+                  <img src="<?php bloginfo('template_url');?>/images/messageIcon.png">
+                  <p>info@consol.com.tr  <br>
+                     support@consol.com.tr</p>
+              </div>
+              <div>
+                  <img src="<?php bloginfo('template_url');?>/images/phoneIcon.png">
+                  <p>info@consol.com.tr  <br>
+                     support@consol.com.tr</p>
+              </div>
+            </div>
+            <div class="branchBlock" style="float: left;width: 40%;background: #14908f">
+              <h3>   Egypt</h3>
+              <div>
+                  <img src="<?php bloginfo('template_url');?>/images/messageIcon.png">
+                  <p>info@consol.com.tr  <br>
+                     support@consol.com.tr</p>
+              </div>
+              <div>
+                  <img src="<?php bloginfo('template_url');?>/images/phoneIcon.png">
+                  <p>info@consol.com.tr  <br>
+                     support@consol.com.tr</p>
+              </div>
+            </div>
+    </div>
+    </footer>
+    

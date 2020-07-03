@@ -67,39 +67,137 @@ p{
 
     </section>
 <?php } ?>
-<!--<?php if(is_page('eev')){?>
-         <?php get_template_part('TemplateParts/slider'); ?>   
-<?php } ?>-->
-
-<?php if(is_page('Consol Hakkında')){?>      
-         <?php get_template_part('TemplateParts/aboutt'); ?> 
+<?php if(is_page('Home')){?>
+         <?php get_template_part('TemplateParts/aboutt'); ?>   
 <?php } ?>
 
-<!-- <?php if(is_page('müşteri hikayeleri')){?>
-        
-    <section  class="success_stories   wow lightSpeedIn " id="successstories">
-           <?php get_template_part('TemplateParts/successstories'); ?> 
-     </section>
- <?php } ?> -->
+<?php if(is_page('Clients')){?>      
+         <?php get_template_part('TemplateParts/Clients'); ?> 
+<?php } ?>
 
- <?php if(is_page('Hizmetler')){?>
-    <section class="our_products container-fluid  wow lightSpeedIn " id="products">
-        <?php get_template_part('TemplateParts/ourproduct'); ?> 
+ <?php if(is_page('Service')){?>
+        
+    <section  class="success_stories   wow lightSpeedIn " id="service">
+           <?php get_template_part('TemplateParts/Service'); ?> 
+     </section>
+ <?php } ?> 
+
+ <?php if(is_page('Contact')){?>
+<!--    <section class="" id="contact">-->
+        <?php get_template_part('TemplateParts/contact'); ?> 
   
     
-    </section>
+<!--    </section>-->
 <?php } ?>
- <?php if(is_page('ne yapıyoruz biz')){?>
+ <?php if(is_page('Products')){?>
     <section class="our_clients  wow lightSpeedIn" id="clients">
         
-         <?php get_template_part('TemplateParts/clients'); ?> 
+         <?php get_template_part('TemplateParts/products'); ?> 
      
     </section>
   <?php } ?>  
- <?php if(is_page('bize bağla')){?>
-    <section class="contact_us  wow lightSpeedIn " id="contact">
-      <?php get_template_part('TemplateParts/contact'); ?>
-        </section>
-<?php } ?>
+
+
+ <?php if(is_page('ConBoard')){?>
+    <section class="our_clients  wow lightSpeedIn" id="clients">
+        
+         <?php get_template_part('TemplateParts/products/ConBoard'); ?> 
+     
+    </section>
+  <?php } ?> 
+
+ <?php if(is_page('NtireVision')){?>
+    <section class="our_clients  wow lightSpeedIn" id="NtireVision">
+        
+         <?php get_template_part('TemplateParts//products/NtireVision'); ?> 
+     
+    </section>
+  <?php } ?> 
+
+
+
+
+
+
+
+ <?php if(is_page('Connect')){?>
+    <section class="our_clients  wow lightSpeedIn" id="Connect">
+        
+         <?php get_template_part('TemplateParts/products/Connect'); ?> 
+     
+    </section>
+  <?php } ?> 
+
+ <?php if(is_page('Smartambulance')){?>
+    <section class="our_clients  wow lightSpeedIn" id="Smartambulance">
+        
+         <?php get_template_part('TemplateParts/products/Smartambulance'); ?> 
+     
+    </section>
+  <?php } ?> 
+
+ <?php if(is_page('Getway')){?>
+    <section class="our_clients  wow lightSpeedIn" id="Getway">
+        
+         <?php get_template_part('TemplateParts/products/Getway'); ?> 
+     
+    </section>
+  <?php } ?> 
+
+ <?php if(is_page('Telemedicine')){?>
+    <section class="our_clients  wow lightSpeedIn" id="Telemedicine">
+        
+         <?php get_template_part('TemplateParts/products/Telemedicine'); ?> 
+     
+    </section>
+  <?php } ?> 
+
+<!--MedicalConsultation
+CompanyConsultation-->
+
+ <?php if(is_page('MedicalConsultation')){?>
+    <section class="our_clients  wow lightSpeedIn" id="MedicalConsultation">
+        
+         <?php get_template_part('TemplateParts/services/MedicalConsultation'); ?> 
+     
+    </section>
+  <?php } ?> 
+
+ <?php if(is_page('CompanyConsultation')){?>
+    <section class="our_clients  wow lightSpeedIn" id="CompanyConsultation">
+        
+         <?php get_template_part('TemplateParts/services/CompanyConsultation'); ?> 
+     
+    </section>
+  <?php } ?> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <?php get_template_part('TemplateParts/foot');?>
 <?php get_footer();?>  

@@ -1,0 +1,10 @@
+last points needed 
+1-connect page work and send mails using php captcha   1.5  >>inprogress
+2- request demo ui and send message using php captcha 2.5
+3-connect any link in page with expected page  .5
+-our product /request demo
+4-connect quick links in footer with pages   .7    >>done
+5-connect request demo with ui in footer   .5  
+6-attach social links with our links [linkedin -facebook .....]   .5
+7-change icon for site and apply it in all site     1  >>done
+8-finally add plugin for change language  and test menu >>new task     

@@ -7,7 +7,8 @@ require_once('wp_bootstrap_navwalker.php');
     // Nav Menus
   register_nav_menus(array(
      'primary' =>__('PRIMARY'),
-       'footer' =>__('FOOTER'), 
+       'footer' =>__('FOOTER'),
+       'footer2' =>__('FOOTER2'), 
        'twoelements' =>__('TWOELEMANTS')
    ));
 

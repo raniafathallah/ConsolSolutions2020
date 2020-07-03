@@ -1,46 +1,28 @@
 
 <style>
-    .trp-language-switcher > div
-    {
-        border: none !important;
-    }
-.custom-select {
-    float: right;
-    display: inline-block;
-    height: auto;
-    width: 100%;
-    border: none;
-     padding: 0.175rem 1.75rem 0.375rem 0.75rem; */
-    line-height: 1.5;
-    color: #495057;
-    vertical-align: middle;
-}    
+ 
 .menu-primary-container{
         background: #fff;
-        height: 35px;
+        height: 30px;
+        position: relative;
+       /* top: -7px;*/
     }
 .menu-primary-container,.navva{
-        width: 80%;
+        width: 75%;
     }
  #navbarTogglerDemo01  #menu-primary {
     list-style: none !important;
     width: 100%;
     padding: 0px;
-     overflow: auto;
-     height: 44px !important;
 }  
-#navbarTogglerDemo01 #menu-primary li {
-    float: left !important;
+#navbarTogglerDemo01 #menu-primary >li {
+    float: right !important;
     outline: none !important;
 }
-/*#menu-item-7 a{
-     border-bottom: 2px solid #80252c;
-    }*/
 #navbarTogglerDemo01 #menu-primary li a,.menu-primary-container  #menu-primary-1 li a{
     color: #027170;
     color: #03599d !important;
     text-decoration: none;
-  /*  padding:7px 9px  !important;*/
     padding: 7px 1px !important;
     margin: 0px 9px;
     text-transform: capitalize;
@@ -48,11 +30,25 @@
     font-weight: 600;
     
 }
+#menu-item-44 .sub-menu,#menu-item-23 .sub-menu,ul{
+    list-style: none !important;
+    }
     
-#navbarTogglerDemo01 #menu-primary li a:hover,.menu-primary-container  #menu-primary-1 li a:hover{
-             border-bottom: 2px solid #80252c;
+#menu-item-44 .sub-menu,#menu-item-23 .sub-menu{
+    display: none;
+    position: absolute;
+    top: 96%;
+    background: #fbfbfb;
+    padding-right: 20px;
+    }
+  #menu-item-44 .sub-menu li:hover,#menu-item-23 .sub-menu li:hover
+    {
+        transform: translate(18px);
+    transform-style: flat;
+    transition-duration: 1s;
+    }
+    #menu-item-44:hover .sub-menu,#menu-item-23:hover .sub-menu{display: block;box-shadow: 2px 2px 3px rgba(0,0,0,.2);}
 
-}    
     
 #navbarTogglerDemo01 #menu-primary li a:hover, .menu-primary-container  #menu-primary-1 li a:hover{
     color: #333;
@@ -70,7 +66,6 @@ body{
 .topmenu i{
     font-size: 12px;
     float: right;
-/*    padding: 20px 10px 0px 10px;*/
 }
 .fa-angle-down{
     position: relative;
@@ -147,24 +142,19 @@ select option:hover,select option:focus,select option:active,select option:visit
     .trp-ls-shortcode-language a:hover{
         color: #000;
     }
-/*.trp-ls-shortcode-language{
-      display: none !important;  
-    }
-    .trp-language-switcher .trp-ls-shortcode-current-language {
-    display: inline-block;
-    position: relative;
-    width: 108px;
-    }*/
+    
+    
+    /* responsive*/
 @media (min-width:300px) and (max-width:768px){
-.menu-primary-container{
+/*.menu-primary-container{
         height: auto;
 }
 .topmenu,#mynav{
     padding: 0px 10px !important;
-}
-.topmenu .logoicon  img{
-    width:103px !important;
-}
+    overflow: auto;
+}*/
+
+/*}
 #mynav{
     background: #ffffff;
     height: auto;  
@@ -175,18 +165,9 @@ select option:hover,select option:focus,select option:active,select option:visit
 }
 ul li {
     padding: 0px ;
-}
+}*/
 
-/*ul li a{
-font-size: 12px;
-    }*/
-.dispmobil{
-    display: block !important;
-}
-.hiddenmobil{
-    display: none;
-}
-.contact-short {
+/*.contact-short {
     padding-left: 60px !important;
     padding-top: 40px !important;
 }
@@ -198,7 +179,21 @@ font-size: 12px;
 }
 .map_footer {
     padding: 38px 0px 0px 0px !important;
+}*/
+    
+/*        .topmenu .logoicon  img{
+    width:60% !important;
+    }*/
+    .menuIcon>img{width:40%;}
+.dispmobil{
+    display: block !important;
 }
+.hiddenmobil{
+    display: none;
+}
+    
+    #menu-item-44 .sub-menu,#menu-item-23 .sub-menu{position: relative;}
+    
 }
 @media (min-width:768px) and (max-width:992px){
 .menu-primary-container{
@@ -207,43 +202,108 @@ font-size: 12px;
 }
 </style>
 
-<style>  
-
-@media (min-width:992px) and (max-width:1024px){
-    #navbarTogglerDemo01 #menu-primary li a, .menu-primary-container #menu-primary-1 li a{
-        font-size: 11px !important;
-        margin: 0px 3px !important;
+<style>
+    
+    
+    #navbarTogglerDemo01 #menu-primary li a, .menu-primary-container #menu-primary-1 li a
+    #navbarTogglerDemo01 #menu-primary li,.menu-primary-container #menu-primary-1 li{
+        float: left;
+    list-style: none;
+    width: auto;
+    display: inline-block;
+    margin: 0px 1%;
     }
-
+    .menu >ul >li a,  #navbarTogglerDemo01 #menu-primary li a, .menu-primary-container #menu-primary-1 li a{
+        color: #4fbbc2 !important; font-family: Century Gothic !important;font-weight: bold;font-size: 18px;}
+    #navbarTogglerDemo01 #menu-primary >li a:hover,
+    .menu-primary-container #menu-primary-1 li a:hover{text-decoration: none ;color: #4aaeb5 !important;}
+    
+    #navbarTogglerDemo01 #menu-primary li a:hover, .menu-primary-container #menu-primary-1 li a:hover {
+    border-bottom: 2px solid transparent;
+}
+    #mynav>div,#mynav>div>ul, 
+    #mynav>div>ul .menu{width:100%;}  
+    #navbarTogglerDemo01 #menu-primary li{margin: 0px 5px;}
+    
+    #mynav {
+    padding-top: 43px !important;
+    padding-bottom: 20px !important;
     }
+    .topmenu{
+        background:#ffffff;
+        display:block;
+        top: 0px;
+        z-index: 1000;
+ 
+        padding: 0px 40px !important;
+        height: auto;
+        padding: 2px 40px !important;
+        padding-bottom: 11px;
+    }
+    .RequestDemo{
+        float: left;
+        background:  #4fbbc2; 
+        color: #fff;
+        display: inline-block;
+        width: 120px;
+        padding: 2px;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;text-align: center;
+            box-shadow: 1px 1px 2px rgba(0,0,0,.6);
+    }   .RequestDemo:hover
+    {background: #4aaeb5}
+    .menuIcon{
+        float: right;width: 20%;
+    }
+    .menuIcon>img{
+        float: right;width:20%;
+        height: 100px;
+        height: 38px;
+        width: 58px;
+        padding-top: 1px;
+    
+    }
+    
+
+    
+    
+    
 </style>
 
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<script src="<?php bloginfo('template_url');?>/js/jquery-3.3.1.min.js"></script>
 
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-
-    
 <script src="<?php bloginfo('template_url');?>/js/bootstrap.min.js"></script>
-<div class="container-fluid" style="background:#052b52;height:14px"></div>
-<div class="container-fluid topmenu" style="background:#ffffff;display:block;top: 0px;
-           z-index: 1000;height: 83px;padding: 0px 40px !important;" >
+
+    <script src="<?php bloginfo('template_url');?>/js/popper.min.js"></script>
+
+    <script src="<?php bloginfo('template_url');?>/js/carousel.min.js"></script>
+<!--<div class="container-fluid" style="background:#052b52;height:14px"></div>-->
+<div class="container-fluid topmenu" style="" >
+    
       <div class="logoicon" style="margin:0px auto;width:14%;float:left">
-        <img src="<?php bloginfo('template_url');?>/images/consollogo6.png" style=" height: 68px;
-           width: 168px;"  >
+        <img src="<?php bloginfo('template_url');?>/images/consollogo6.png" style=" height: 60px;
+           width: 170px;"  >
+      </div> 
+    
+       <div class="menuIcon dispmobil" id="MenuIcon" style="margin:0px auto;width:40%;float:right;display:none;overflow:auto;padding-top:20px;" onclick="myFunction()">
+        <img src="<?php bloginfo('template_url');?>/images/menuIcon.png" style=""  >
       </div> 
     
 
    <!--     <i class="fa fa-facebook"></i>
         <i class="fa fa-linkedin"></i>
-        <i style="wiwth:100px">  <?php echo do_shortcode('[language-switcher]'); ?>  </i>
+        <i style="wiwth:100px"> 
+<?php echo do_shortcode('[language-switcher]'); ?>  </i>
 -->
 
+<!--    <div class=" menuIcon" > 
+    <img src="<?php bloginfo('template_url');?>/images/consollogo6.png">
+    </div>-->
 
-
-    <nav id="mynav" class="navbar navbar-expand-lg navbar-light    fadeInLeft hiddenmobil" style="
-           z-index: 1000;float:right;height:23px;width:70%" >
+    <nav id="mynav" class="navbar navbar-expand-lg navbar-light    fadeInLeft " style="
+           z-index: 1000;float:right;height:23px;width:80% ;" >
 
     
             <div class="collapsedd navbar-collapsedd " id="navbarTogglerDemo01" style="width:100%;float:right;">
@@ -254,54 +314,54 @@ font-size: 12px;
 
                     <?php  $args=array('themelocation'=>'primary') ?>
                     <?php  wp_nav_menu( $args);  ?>
-                       <li>   <i style="wiwth:100px">  <?php echo do_shortcode('[language-switcher]'); ?>  </i></li>
+                     <!--  <li>   <i style="wiwth:100px">  <?php echo do_shortcode('[language-switcher]'); ?>  </i></li>-->
+                    
+                    <li class="RequestDemo"> <a> Request Demo </a> </li>
+                    
                 </ul>
            
            
             </div>
     </nav>
     
-      
-
-</div>
-<nav id="mynav" class="navbar navbar-expand-lg navbar-light  container-fluid  fadeInLeft dispmobil" style="
-           z-index: 1000;padding:0px 40px;display:none;" >
-
-            <button class="navbar-togglered" type="button" data-toggle="collapsed" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-togglered-icon" style="background: none"> <i class="fa fa-bars" style="padding-top:0px !important;"></i></span>
-                
-            </button>
-            <div class="collapsed navbar-collapsed " id="navbarTogglerDemo02">
-      
+     <style>
+           @media only screen 
+        and (min-device-width :300px)
+         and (max-device-width : 768px) {
+             #mynav{display: none;}
+             #navbarTogglerDemo01 #menu-primary >li{float:none;}
+            #navbarTogglerDemo01 #menu-primary >li {
+                float: none !important;
+                display: block;
+                width: 100%;
+                overflow: auto;
+            }
+             #navbarTogglerDemo01 #menu-primary{background: #fff;}
+             
+             #mynav{height: auto;}
+             
+             .menu-primary-container{height: auto !important;}
+             
+         }
          
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navva" >
+    </style>  
     
-
-                    <?php  $args=array('themelocation'=>'primary') ?>
-                    <?php  wp_nav_menu( $args);  ?>
-                </ul>
-            </div>
-</nav>
 
 </div>
+
+
+
 <?php get_footer();   ?>
-<script>
-$(document).ready(function(){
-
-$('.collapsed').addClass('collap');    
-$('.navbar-togglered').click(function(){
-     /*   debugger;*/
-
-if($('.collapsed').hasClass('showed')){
-$('.collapsed').removeClass('showed');
-$('.collapsed').addClass('collap');
-}else{
-$('.collapsed').addClass('showed');
-$('.collapsed').removeClass('collap');
+<script>      
+function myFunction() {
+  var x = document.getElementById("mynav");
+  var x2 = document.getElementsByClassName("topmenu")[0];
+  if (x.style.display === "block") {
+    x.style.display = "none";
+      x2.style.height="23px";
+  } else {
+    x.style.display = "block";
+      x2.style.height="350px";
+  }
 }
-
-  });
-    
-    
-});
 </script>
